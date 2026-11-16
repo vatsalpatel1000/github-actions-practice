@@ -5,7 +5,7 @@ name: Auto Linter
 
 on:
   push:
-    paths: "*.py"
+    paths: "*.py"          # .py wali file se kuch push hua h to hi trigger hogi
 
 jobs:
   code-linting:
